@@ -7,7 +7,7 @@ This module enables the usage of `pinia-plugin-persistedstate-2` with `localfora
 To install the module, run:
 
 ```sh
-npm install @owd-client/module-pinia-localforage
+npm install github:owdproject/module-pinia-localforage
 ```
 
 ## Usage
