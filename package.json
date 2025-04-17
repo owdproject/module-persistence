@@ -1,12 +1,28 @@
 {
   "name": "@owdproject/module-pinia-localforage",
   "version": "0.0.1",
+  "description": "Enables localforage within Pinia to store states persistently",
   "license": "MIT",
   "homepage": "https://github.com/owdproject/module-pinia-localforage",
   "author": {
     "name": "dxlliv",
     "url": "https://github.com/dxlliv"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owdproject/module-pinia-localforage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/owdproject/module-pinia-localforage/issues"
+  },
+  "keywords": [
+    "owdproject",
+    "owd-client",
+    "pinia",
+    "nuxt",
+    "persist",
+    "state"
+  ],
   "dependencies": {
     "localforage": "^1.10.0",
     "pinia-plugin-persistedstate-2": "^2.0.30"
