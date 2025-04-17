@@ -1,4 +1,4 @@
-# Open Web Desktop Module: Pinia LocalForage
+# Pinia LocalForage for Open Web Desktop
 
 This module enables `localforage` within Pinia to store states persistently.
 
