@@ -2,12 +2,16 @@
   "name": "@owd-client/module-pinia-localforage",
   "version": "0.0.1",
   "license": "MIT",
-  "homepage": "https://github.com/owdproject/owd-module-pinia-localforage",
+  "homepage": "https://github.com/owdproject/module-pinia-localforage",
   "author": {
     "name": "dxlliv",
     "url": "https://github.com/dxlliv"
   },
   "dependencies": {
+    "localforage": "^1.10.0",
+    "pinia-plugin-persistedstate-2": "^2.0.30"
+  },
+  "peerDependencies": {
     "localforage": "^1.10.0",
     "pinia-plugin-persistedstate-2": "^2.0.30"
   }
