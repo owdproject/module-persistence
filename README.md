@@ -7,7 +7,7 @@ This module enables `localforage` within Pinia to store states persistently.
 To install the module, run:
 
 ```sh
-npm install @owdproject/module-pinia-localforage localforage pinia-plugin-persistedstate-2
+npm install @owdproject/module-pinia-localforage
 ```
 
 ## Usage
