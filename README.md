@@ -1,13 +1,13 @@
 # Open Web Desktop Module: Pinia LocalForage
 
-This module enables the usage of `pinia-plugin-persistedstate-2` with `localforage` for storing Pinia state persistently.
+This module enables `localforage` within Pinia to store states persistently.
 
 ## Installation
 
 To install the module, run:
 
 ```sh
-npm install github:owdproject/module-pinia-localforage localforage pinia-plugin-persistedstate-2
+npm install @owdproject/module-pinia-localforage localforage pinia-plugin-persistedstate-2
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Define the module in your `nuxt.config.ts`:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['@owd-client/module-pinia-localforage']
+  modules: ['@owdproject/module-pinia-localforage']
 });
 ```
 
@@ -26,5 +26,5 @@ export default defineNuxtConfig({
 - Works seamlessly with Nuxt
 
 ## License
-This project is licensed under the MIT License.
+This project is released under the [MIT License](LICENSE).
 

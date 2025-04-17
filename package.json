@@ -1,5 +1,5 @@
 {
-  "name": "@owd-client/module-pinia-localforage",
+  "name": "@owdproject/module-pinia-localforage",
   "version": "0.0.1",
   "license": "MIT",
   "homepage": "https://github.com/owdproject/module-pinia-localforage",
