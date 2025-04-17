@@ -6,5 +6,9 @@
   "author": {
     "name": "dxlliv",
     "url": "https://github.com/dxlliv"
+  },
+  "dependencies": {
+    "localforage": "^1.10.0",
+    "pinia-plugin-persistedstate-2": "^2.0.30"
   }
 }
