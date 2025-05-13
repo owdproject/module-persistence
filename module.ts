@@ -8,7 +8,7 @@ export default defineNuxtModule({
         const {resolve} = createResolver(import.meta.url);
 
         addPlugin({
-          src: resolve('./runtime/plugins/pluginPiniaLocalforage.ts'),
+          src: resolve('./runtime/plugin'),
           mode: 'client'
         })
     }
