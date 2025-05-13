@@ -2,11 +2,7 @@ import { createPersistedStatePlugin } from 'pinia-plugin-persistedstate-2'
 import { defineNuxtPlugin } from "nuxt/app"
 import { usePinia } from "#imports"
 
-// this import will make the module work locally
-import * as localforage from 'localforage'
-
-// this import will make the module work when used as dependency
-// import 'localforage'
+import localforage from 'localforage'
 
 export default defineNuxtPlugin({
     name: 'owd-plugin-pinia-localforage',
