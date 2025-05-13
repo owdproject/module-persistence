@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/module-pinia-localforage",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Enables localforage within Pinia to store states persistently",
   "license": "MIT",
   "homepage": "https://github.com/owdproject/module-pinia-localforage",
