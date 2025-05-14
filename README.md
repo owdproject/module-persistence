@@ -12,10 +12,11 @@ npm install @owdproject/module-pinia-localforage
 
 ## Usage
 
-Define the module in your `nuxt.config.ts`:
+Then, define it in your desktop configuration:
 
 ```ts
-export default defineNuxtConfig({
+// desktop/owd.config.ts
+export default defineDesktopConfig({
   modules: ['@owdproject/module-pinia-localforage']
 });
 ```
@@ -26,5 +27,5 @@ export default defineNuxtConfig({
 - Works seamlessly with Nuxt
 
 ## License
-This project is released under the [MIT License](LICENSE).
 
+This module is released under the [MIT License](LICENSE).
