@@ -18,7 +18,7 @@ This module enables [localForage](https://www.npmjs.com/package/localforage) wit
 ## Installation
 
 ```bash
-nx run desktop:install-module --name=@owdproject/module-pinia-localforage
+owd install-module @owdproject/module-pinia-localforage
 ```
 
 ## License
