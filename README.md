@@ -11,6 +11,7 @@
 This module enables [localForage](https://www.npmjs.com/package/localforage) within Pinia to store application states persistently.
 
 ## Features
+
 - Configures `pinia-plugin-persistedstate-2` to use `localforage`
 - Enables persistent storage for Pinia stores
 - Works seamlessly with Nuxt
