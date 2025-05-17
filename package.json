@@ -1,19 +1,19 @@
 {
-  "name": "@owdproject/module-pinia-localforage",
-  "version": "0.0.3",
+  "name": "@owdproject/module-persistence",
+  "version": "0.0.1",
   "description": "Enables localforage within Pinia to store states persistently",
   "license": "MIT",
-  "homepage": "https://github.com/owdproject/module-pinia-localforage",
+  "homepage": "https://github.com/owdproject/module-persistence",
   "author": {
     "name": "Open Web Desktop Team",
     "url": "https://github.com/owdproject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owdproject/module-pinia-localforage.git"
+    "url": "git+https://github.com/owdproject/module-persistence"
   },
   "bugs": {
-    "url": "https://github.com/owdproject/module-pinia-localforage/issues"
+    "url": "https://github.com/owdproject/module-persistence/issues"
   },
   "keywords": [
     "owdproject",

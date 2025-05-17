@@ -5,7 +5,7 @@ import { usePinia } from '#imports'
 import localforage from 'localforage'
 
 export default defineNuxtPlugin({
-  name: 'owd-plugin-pinia-localforage',
+  name: 'owd-plugin-persistence',
   parallel: true,
   async setup() {
     const pinia = usePinia()
