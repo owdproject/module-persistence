@@ -1,8 +1,7 @@
 import { createPersistedStatePlugin } from 'pinia-plugin-persistedstate-2'
 import { defineNuxtPlugin } from 'nuxt/app'
 import { usePinia } from '#imports'
-
-import localforage from 'localforage'
+import { get, set, del } from 'idb-keyval'
 
 export default defineNuxtPlugin({
   name: 'owd-plugin-persistence',
@@ -15,19 +14,14 @@ export default defineNuxtPlugin({
         persist: false,
         storage: {
           getItem: async (key) => {
-            const states = await localforage.getItem(key)
-
-            if (states) {
-              return JSON.stringify(states)
-            }
-
-            return states
+            const value = await get<string>(key)
+            return value ?? null
           },
           setItem: async (key, value) => {
-            return localforage.setItem(key, JSON.parse(value))
+            await set(key, value)
           },
           removeItem: async (key) => {
-            return localforage.removeItem(key)
+            await del(key)
           },
         },
       }),

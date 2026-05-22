@@ -3,23 +3,22 @@
 </p>
 <h1 align="center">Persistence Module</h1>
 <h3 align="center">
-  Pinia with LocalForage for Open Web Desktop.
+  Pinia persistence for Open Web Desktop (IndexedDB via idb-keyval).
 </h3>
 
 ## Overview
 
-This module enables [localForage](https://www.npmjs.com/package/localforage) within Pinia to store application states persistently.
+This module registers [`pinia-plugin-persistedstate-2`](https://github.com/wobsoriano/pinia-plugin-persistedstate-2) with storage backed by [`idb-keyval`](https://github.com/jakearchibald/idb-keyval) (small ESM library on IndexedDB). It avoids legacy UMD packages such as `localforage`, which break under Vite’s native ESM handling (`does not provide an export named 'default'`).
 
 ## Features
 
-- Configures `pinia-plugin-persistedstate-2` to use `localforage`
-- Enables persistent storage for Pinia stores
-- Works seamlessly with Nuxt
+- Async `getItem` / `setItem` / `removeItem` compatible with the persisted-state plugin
+- Client-only Nuxt plugin (same pattern as before)
 
 ## Installation
 
 ```bash
-owd install-module @owdproject/module-pinia-localforage
+pnpm desktop add @owdproject/module-persistence
 ```
 
 ## License
