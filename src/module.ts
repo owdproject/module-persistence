@@ -1,8 +1,10 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { addPlugin, createResolver } from '@nuxt/kit'
+import { defineDesktopModule } from '@owdproject/core/kit/authoring'
 
-export default defineNuxtModule({
+export default defineDesktopModule({
   meta: {
-    name: 'owd-module-persistence',
+    name: 'desktop-module-persistence',
+    configKey: 'persistence',
   },
   setup() {
     const { resolve } = createResolver(import.meta.url)

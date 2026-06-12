@@ -4,8 +4,9 @@ import { get, set, del } from 'idb-keyval'
 
 export default defineNuxtPlugin({
   name: 'owd-plugin-persistence',
-  parallel: true,
-  async setup(nuxtApp) {
+  dependsOn: ['pinia'],
+  enforce: 'pre',
+  setup(nuxtApp) {
     const pinia = nuxtApp.$pinia
     if (!pinia) {
       return
