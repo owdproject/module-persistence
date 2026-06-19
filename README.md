@@ -13,7 +13,8 @@ This module registers [`pinia-plugin-persistedstate-2`](https://github.com/wobso
 ## Features
 
 - Async `getItem` / `setItem` / `removeItem` compatible with the persisted-state plugin
-- Client-only Nuxt plugin (same pattern as before)
+- Client-only Nuxt plugin (`desktop-plugin-persistence`)
+- Storage keys match Pinia store ids (e.g. `desktop`, `desktop/application/todo/windows`)
 
 ## Installation
 
