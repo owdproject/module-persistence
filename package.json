@@ -28,9 +28,6 @@
   "files": [
     "dist"
   ],
-  "nx": {
-    "name": "module-persistence"
-  },
   "scripts": {
     "prepack": "nuxt-module-build build",
     "dev": "pnpm run dev:prepare && cd playground && pnpm exec nuxt dev",
